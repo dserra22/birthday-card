@@ -1,0 +1,124 @@
+.card {
+  /* background-color: var(--primary); */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 55rem;
+  height: 80vh;
+  transition: all 1s;
+  user-select: none;
+}
+.shiftRight {
+  transform: translate(0%, -50%);
+}
+.shiftLeft {
+  transform: translate(50%, -50%);
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  perspective: 2500px;
+  position: absolute;
+}
+.cardFront,
+.cardBack {
+  position: absolute;
+  transform-origin: left;
+  width: 100%;
+  height: 100%;
+}
+.cardFront {
+  z-index: 1;
+  backface-visibility: hidden;
+  background-color: var(--quartenary);
+}
+
+.cardBack {
+  z-index: 0;
+  background-color: var(--quartenary);
+}
+
+.flipped .cardFront,
+.flipped .cardBack {
+  transition: all 1s;
+  transform: rotateY(-180deg);
+}
+
+.frontContent,
+.backContent {
+  padding: 4.8rem;
+}
+
+.backContent {
+  transition: all 1s;
+  transform: rotateY(180deg);
+}
+
+.happyBirthday {
+  color: var(--text-0);
+}
+
+.abre {
+  color: var(--text-bg);
+}
+
+.desc,
+.name {
+  color: var(--text-1);
+}
+
+.happyBirthday {
+  font-size: 9.2rem;
+}
+
+.abre {
+  top: 2%;
+  right: 8%;
+  position: absolute;
+  font-size: 3.6rem;
+}
+.desc {
+  font-size: 3.6rem;
+}
+
+.back {
+  font-family: "Lora", cursive;
+  color: var(--text-1);
+}
+
+.name {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: 5.4rem;
+}
+
+.happyBirthday span,
+.desc span {
+  font-size: 2.4rem;
+  display: inline-block;
+}
+
+@media (max-height: 56em) {
+  .card {
+    height: 90vh;
+  }
+}
+@media (max-height: 47em) {
+  .card {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 70em) {
+  .card {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 44em) {
+  .cardFront,
+  .cardBack {
+    overflow-y: scroll;
+  }
+}
