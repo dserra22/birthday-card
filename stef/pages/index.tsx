@@ -81,8 +81,8 @@ export default function Home() {
             . Es una sonrisa de un deseo genuino vivir en el borde de vida.
           </p>
           <p className={styles.desc}>
-            Has viajaste veinteseis viajes al redador del sol. Que increible.
-            Con tu corazon encendido de pasion{" "}
+            Has viajaste veinteseis viajes alredador del sol. Que increible. Con
+            tu corazon encendido de pasion{" "}
             <span
               style={{
                 transform: `scaleY(${1 + backgroundMover * 0.005})`,
