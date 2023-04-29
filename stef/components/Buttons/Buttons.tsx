@@ -20,9 +20,7 @@ const Buttons: FC<Props> = ({ onPage, changePage }) => {
             return prevPage - 1;
           });
         }}
-      >
-        (
-      </button>
+      ></button>
     );
   } else if (onPage === 0) {
     button = (
@@ -33,9 +31,7 @@ const Buttons: FC<Props> = ({ onPage, changePage }) => {
             return prevPage + 1;
           });
         }}
-      >
-        )
-      </button>
+      ></button>
     );
   }
 

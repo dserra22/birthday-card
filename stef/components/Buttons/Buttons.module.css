@@ -42,3 +42,20 @@
   -webkit-clip-path: polygon(0 0, 100% 0, 25% 25%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 25% 25%, 0 100%);
 }
+
+@media (max-width: 70em) {
+  .button {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+  .rightButton:hover,
+  .leftButton:hover,
+  .rightButton,
+  .leftButton {
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+  .rightButton {
+    border-bottom-left-radius: 10px;
+  }
+}

@@ -50,3 +50,8 @@ p {
     font-size: 42.5%;
   }
 }
+@media (max-width: 44em) {
+  html {
+    font-size: 37.5%;
+  }
+}
