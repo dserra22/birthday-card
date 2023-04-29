@@ -123,7 +123,15 @@
     overflow-y: scroll;
   }
   .cardFront {
-    width: 100vw;
-    transform: translateX(-25%);
+    /* width: 100vw; */
+    /* transform: translateX(-25%); */
+  }
+  .frontContent,
+  .backContent {
+    padding: 6.4rem 2.4rem 2.4rem 2.4rem;
+  }
+  .happyBirthday {
+    margin-top: 24rem;
+    font-size: 5.2rem;
   }
 }
