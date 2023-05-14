@@ -76,6 +76,7 @@ export default function Home() {
             I appreciate everything that you have done for me. You are a
             reflection 🪞 of how I will raise my kids. 🚸
           </p>
+          <p className={styles.desc}>Thank you for being such a good Mom.</p>
           <p className={styles.desc}>Da,</p>
           <p className={styles.name}> David Serrano</p>
         </>
