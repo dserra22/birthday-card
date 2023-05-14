@@ -1,1 +1,1 @@
-export const birthdayName = "Estefany";
+export const birthdayName = "Mom";

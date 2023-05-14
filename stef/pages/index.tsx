@@ -53,61 +53,18 @@ export default function Home() {
     {
       first: (
         <>
-          <h1 className={styles.happyBirthday}>
-            Feliz Cumpleanos Estefany{" "}
-            <span
-              style={{
-                fontSize: `${backgroundMover * 0.02 + 2.4}rem`,
-              }}
-            >
-              ❤️
-            </span>
-          </h1>
-          <p className={styles.abre}>abre la pagina!</p>
+          <h1 className={styles.happyBirthday}>Happy Mother's day Mom!</h1>
+          <p className={styles.abre}>Open the page!</p>
         </>
       ),
       second: (
         <>
-          <p className={styles.desc}>Estefany,</p>
+          <p className={styles.desc}>Dear Mom,</p>
           <p className={styles.desc}>
-            Tu sonrisa es tan brillante como el sol{" "}
-            <span
-              style={{
-                transform: `rotate(${worldSpin % 360}deg)`,
-              }}
-            >
-              ☀️
-            </span>
-            . Es una sonrisa de un deseo genuino vivir en el borde de vida.
-          </p>
-          <p className={styles.desc}>
-            Has viajaste veinteseis viajes alredador del sol. Que increible. Con
-            tu corazon encendido de pasion{" "}
-            <span
-              style={{
-                transform: `scaleY(${1 + backgroundMover * 0.005})`,
-              }}
-            >
-              🔥
-            </span>{" "}
-            y lleno de amor{" "}
-            <span
-              style={{
-                fontSize: `${backgroundMover * 0.02 + 2.4}rem`,
-              }}
-            >
-              ❤️
-            </span>
-            , tus viajes alrededor del sol mejoran cada año{" "}
-            <span
-              style={{
-                transform: `rotate(${worldSpin % 360}deg)`,
-              }}
-            >
-              🌎
-            </span>
-            . Yo se que tus sueños realizaran y le daras al mundo. Extiende tus
-            raices lejos y anchos para aferrarse a la verdad.
+            Happy Mother's day! The last time I saw you, you stalked me at the
+            airport ✈️ watching me get my boarding pass. That was really cute,
+            and it goes to say how far you go for me. It's been like this my
+            whole life, with all of the support you have given me. 😊
           </p>
         </>
       ),
@@ -116,40 +73,14 @@ export default function Home() {
       first: (
         <>
           <p className={styles.desc}>
-            Tus ojos estan abiertos Estefany (y son hermosos). Es un otro año
-            mostrar el mundo la luz <span>💡</span> entre la oscuridad y
-            bendiciar la tierra con tu presencia. Ya eres una bendicion a mi
-            vida.
+            I appreciate everything that you have done for me. You are a
+            reflection 🪞 of how I will raise my kids. 🚸
           </p>
-          <p className={styles.desc}>
-            Bailaremos juntos{" "}
-            <span
-              style={{
-                transform: `translateX(${-backgroundMover * 0.005 + 0.3}rem)`,
-              }}
-            >
-              🕺
-            </span>
-            <span
-              style={{
-                transform: `translateX(${backgroundMover * 0.005 - 0.3}rem)`,
-              }}
-            >
-              💃
-            </span>
-            mientras nos miramos en los ojos. Te dare tus besitos de cumpleaños
-            algun dia. Agradezco concerte mucho, y espero que podamos crecer
-            juntos. Eso es real.
-            <span>😉</span>
-          </p>
-          <p>&nbsp;</p>
-          <p className={styles.desc}>Con mucho amor,</p>
+          <p className={styles.desc}>Da,</p>
           <p className={styles.name}> David Serrano</p>
         </>
       ),
-      second: (
-        <h1 className={styles.back}>no piensa en besitos en el cuello jaja</h1>
-      ),
+      second: <h1 className={styles.back}>Da</h1>,
     },
   ];
 
@@ -209,7 +140,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Happy Birthday {birthdayName}</title>
+        <title>Happy Mother's day {birthdayName}</title>
       </Head>
 
       <section className={styles.section}>
